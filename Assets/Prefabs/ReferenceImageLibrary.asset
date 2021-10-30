@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4694788614094690351
+  m_GuidHigh: 15588991839494957491
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5430499393640491878
+      m_GuidHigh: 11181218662445800620
+    m_SerializedTextureGuid:
+      m_GuidLow: 11890751416489769484
+      m_GuidHigh: 239571044944404459
+    m_Size: {x: 0.1, y: 0.100441016}
+    m_SpecifySize: 1
+    m_Name: Plane
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4727319330605810395
+      m_GuidHigh: 6208489957010106533
+    m_SerializedTextureGuid:
+      m_GuidLow: 10508132986524547710
+      m_GuidHigh: 15183493844113931482
+    m_Size: {x: 0.1, y: 0.07948052}
+    m_SpecifySize: 1
+    m_Name: Ship
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4725309010689206590
+      m_GuidHigh: 7824761311616071818
+    m_SerializedTextureGuid:
+      m_GuidLow: 690265080601249215
+      m_GuidHigh: 17944978939691074362
+    m_Size: {x: 0.1, y: 0.0662636}
+    m_SpecifySize: 1
+    m_Name: Bicycle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5281249712933046901
+      m_GuidHigh: 6882277450519314611
+    m_SerializedTextureGuid:
+      m_GuidLow: 8148267620525574642
+      m_GuidHigh: 9162266316068208762
+    m_Size: {x: 0.1, y: 0.10454546}
+    m_SpecifySize: 1
+    m_Name: Cat_Fox
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4852563689052725585
+      m_GuidHigh: 17022006186152295615
+    m_SerializedTextureGuid:
+      m_GuidLow: 13413105760342048199
+      m_GuidHigh: 6644821678582597736
+    m_Size: {x: 0.1, y: 0.09286872}
+    m_SpecifySize: 1
+    m_Name: Fox_Bear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5064689654014754986
+      m_GuidHigh: 1630262746548699532
+    m_SerializedTextureGuid:
+      m_GuidLow: 9620924671296168133
+      m_GuidHigh: 15690189791502063176
+    m_Size: {x: 0.1, y: 0.087427914}
+    m_SpecifySize: 1
+    m_Name: Hare_Panda_Bear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5728464141435226246
+      m_GuidHigh: 5598145791104436109
+    m_SerializedTextureGuid:
+      m_GuidLow: 12548169173186921251
+      m_GuidHigh: 14691060951853071432
+    m_Size: {x: 0.1, y: 0.09863482}
+    m_SpecifySize: 1
+    m_Name: Rocket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5446689812363718614
+      m_GuidHigh: 7403143448018536074
+    m_SerializedTextureGuid:
+      m_GuidLow: 17033840105172644329
+      m_GuidHigh: 10444117776362441242
+    m_Size: {x: 0.1, y: 0.09708879}
+    m_SpecifySize: 1
+    m_Name: Tiger_Hare
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5614476947513476556
+      m_GuidHigh: 7006388017864802711
+    m_SerializedTextureGuid:
+      m_GuidLow: 13178661878858600899
+      m_GuidHigh: 17190359939429611449
+    m_Size: {x: 0.1, y: 0.047028862}
+    m_SpecifySize: 1
+    m_Name: Car
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4643224225269311137
+      m_GuidHigh: 17055425360492622209
+    m_SerializedTextureGuid:
+      m_GuidLow: 5594600222336382077
+      m_GuidHigh: 6327198705847920219
+    m_Size: {x: 0.1, y: 0.060849056}
+    m_SpecifySize: 1
+    m_Name: Racing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5744393753287653018
+      m_GuidHigh: 10962524166247458232
+    m_SerializedTextureGuid:
+      m_GuidLow: 12061984359615700908
+      m_GuidHigh: 3563817885909919579
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Airplane
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5028694593751645016
+      m_GuidHigh: 11187064271849178556
+    m_SerializedTextureGuid:
+      m_GuidLow: 6428042233882158806
+      m_GuidHigh: 5318175210793702923
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Bicycle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4856883867848215663
+      m_GuidHigh: 14491695501060019880
+    m_SerializedTextureGuid:
+      m_GuidLow: 10219994562129664743
+      m_GuidHigh: 5583522801114520426
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Car
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5180091542451447425
+      m_GuidHigh: 11509963602620013961
+    m_SerializedTextureGuid:
+      m_GuidLow: 16344897865369980645
+      m_GuidHigh: 5643376637953856459
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Cat_Fox
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5690333088448066771
+      m_GuidHigh: 17724510864232767651
+    m_SerializedTextureGuid:
+      m_GuidLow: 15844975172188916305
+      m_GuidHigh: 14263977610104412379
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Fox_Bear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5626708621358545506
+      m_GuidHigh: 18097557794616268160
+    m_SerializedTextureGuid:
+      m_GuidLow: 9166093805903356588
+      m_GuidHigh: 15568254457912071978
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Hare_Panda_Bear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4693208853002579430
+      m_GuidHigh: 2978930688511746239
+    m_SerializedTextureGuid:
+      m_GuidLow: 8769837193025379688
+      m_GuidHigh: 902190430212738250
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Racing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4615443746993179641
+      m_GuidHigh: 6734720820998872221
+    m_SerializedTextureGuid:
+      m_GuidLow: 1928864949938763076
+      m_GuidHigh: 16102548028614332552
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Rocket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5267352891342930768
+      m_GuidHigh: 3165477604772342662
+    m_SerializedTextureGuid:
+      m_GuidLow: 4680607448812899021
+      m_GuidHigh: 8518222531174969146
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Ship
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5401593749617087001
+      m_GuidHigh: 9985279750116878976
+    m_SerializedTextureGuid:
+      m_GuidLow: 7463753975549652364
+      m_GuidHigh: 2796832030959752521
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: qr_Tiger_Hare
+    m_Texture: {fileID: 0}
