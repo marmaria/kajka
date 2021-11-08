@@ -25,8 +25,8 @@ public class StoriesScript : MonoBehaviour
 
     public void StartStories()
     {
+        StopAll();
         panelStories.SetActive(true);
-        panelOneStory.SetActive(false);
     }
 
     public void OpenOne(int num)
@@ -83,8 +83,6 @@ public class StoriesScript : MonoBehaviour
     public void RepeatAudio()
     {
         commonAudioSource.Stop();
-        transform.GetComponent<AudioSource>().PlayOneShot(audioClip);
-        panelOneStory.transform.Find("Panel").Find("Play").gameObject.SetActive(false);
-        panelOneStory.transform.Find("Panel").Find("Pause").gameObject.SetActive(true);
+        PlayAudio();
     }
 }

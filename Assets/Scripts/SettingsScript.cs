@@ -15,6 +15,7 @@ public class SettingsScript : MonoBehaviour
     [SerializeField] GameObject panelSettings;
     [SerializeField] GameObject panelQR;
     [SerializeField] GameObject panelAR;
+    [SerializeField] GameObject panelInfo;
 
     private string currentLang;
 
@@ -54,6 +55,7 @@ public class SettingsScript : MonoBehaviour
         ChangePanelStories();
         ChangePanelQR();
         ChangePanelAR();
+        ChangePanelInfo();
     }
 
     private void ChangePanelSettings()
@@ -97,6 +99,11 @@ public class SettingsScript : MonoBehaviour
     {
         panelAR.transform.Find("HintPanel").Find("Text").GetComponent<Text>().text = dictionaryScript.textHintAR[currentLang];
         panelAR.transform.Find("HintPanel").Find("Text2").GetComponent<Text>().text = dictionaryScript.textHintAR2[currentLang];
+    }
+
+    private void ChangePanelInfo()
+    {
+        panelInfo.transform.Find("Text").GetComponent<Text>().text = dictionaryScript.textInfo[currentLang];
     }
 
     public string ChangePanelOpenStory(int num, string lang = "")

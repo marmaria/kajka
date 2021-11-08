@@ -23,6 +23,8 @@ public class DictionaryScript : MonoBehaviour
     // AR
     public Dictionary<string, string> textHintAR = new Dictionary<string, string>(3);
     public Dictionary<string, string> textHintAR2 = new Dictionary<string, string>(3);
+    // Info
+    public Dictionary<string, string> textInfo = new Dictionary<string, string>(3);
 
 
     // Start is called before the first frame update
@@ -31,23 +33,23 @@ public class DictionaryScript : MonoBehaviour
         // Settings
         settingsButton.Add("Ukr", "Вибери мову");
         settingsButton.Add("Rus", "Выбери язык");
-        settingsButton.Add("Eng", "Choose a language");
+        settingsButton.Add("Eng", "Language");
         // Menu
-        buttonAR.Add("Ukr", "Грай з персонажами");
+        buttonAR.Add("Ukr", "Грай із персонажами");
         buttonAR.Add("Rus", "Играй с персонажами");
-        buttonAR.Add("Eng", "Play with characters");
+        buttonAR.Add("Eng", "Play");
 
         buttonStories.Add("Ukr", "Бібліотека історій");
         buttonStories.Add("Rus", "Библиотека историй");
-        buttonStories.Add("Eng", "Library of Stories");
+        buttonStories.Add("Eng", "Library");
 
         buttonQR.Add("Ukr", "Відскануй QR-код");
         buttonQR.Add("Rus", "Отсканируй QR-код");
-        buttonQR.Add("Eng", "Scan the QR code");
+        buttonQR.Add("Eng", "QR Code scanner");
 
         buttonStore.Add("Ukr", "Магазин");
         buttonStore.Add("Rus", "Магазин");
-        buttonStore.Add("Eng", "Store");
+        buttonStore.Add("Eng", "Shop");
         // Stories
         buttons[0] = new Dictionary<string, string>(3);
         buttons[1] = new Dictionary<string, string>(3);
@@ -70,7 +72,7 @@ public class DictionaryScript : MonoBehaviour
         buttons[1].Add("Rus", "Медведь");
         buttons[1].Add("Eng", "Bear");
               
-        buttons[2].Add("Ukr", "Велосіпед");
+        buttons[2].Add("Ukr", "Велосипед");
         buttons[2].Add("Rus", "Велосипед");
         buttons[2].Add("Eng", "Bicycle");
               
@@ -82,11 +84,11 @@ public class DictionaryScript : MonoBehaviour
         buttons[4].Add("Rus", "Кот");
         buttons[4].Add("Eng", "Cat");
               
-        buttons[5].Add("Ukr", "Ліc");
+        buttons[5].Add("Ukr", "Лиc");
         buttons[5].Add("Rus", "Лис");
         buttons[5].Add("Eng", "Fox");
               
-        buttons[6].Add("Ukr", "Зайця");
+        buttons[6].Add("Ukr", "Заєць");
         buttons[6].Add("Rus", "Заяц");
         buttons[6].Add("Eng", "Hare");
               
@@ -113,7 +115,7 @@ public class DictionaryScript : MonoBehaviour
         // QR
         textHint.Add("Ukr", "Відскануй QR-код");
         textHint.Add("Rus", "Отсканируй QR-код");
-        textHint.Add("Eng", "Scan the QR code");
+        textHint.Add("Eng", "QR Code scanner");
 
         textAsk.Add("Ukr", "Хочеш послухати казку про");
         textAsk.Add("Rus", "Хочешь послушать сказку про");
@@ -177,13 +179,29 @@ public class DictionaryScript : MonoBehaviour
         buttonReturn.Add("Eng", "Go back to the list");
 
         // AR
-        textHintAR.Add("Ukr", "Наведи на малюнок");
-        textHintAR.Add("Rus", "Наведи на рисунок");
-        textHintAR.Add("Eng", "Hover over the drawing");
+        textHintAR.Add("Ukr", "Наведи камеру на малюнок.");
+        textHintAR.Add("Rus", "Наведи камеру на рисунок.");
+        textHintAR.Add("Eng", "Point the camera at the picture.");
 
-        textHintAR2.Add("Ukr", "Натисни на об'ємну картинку для включення звуку");
-        textHintAR2.Add("Rus", "Нажми на объёмную картинку для включения звука");
-        textHintAR2.Add("Eng", "Click on the surround image to turn on the sound");
+        textHintAR2.Add("Ukr", "Натисніть на картинку для включення звуку");
+        textHintAR2.Add("Rus", "Нажми на объемную картинку для включения звука");
+        textHintAR2.Add("Eng", "Click on the 3D image to turn on the sound");
+
+        // Info
+        textInfo.Add("Ukr", "КАЙКА - це чарівна дитяча постільна білизна та ковдри. " +
+            "Наша продукція розповідає дітям казки. За допомогою додатку \"КАЙКА\" ви " +
+            "зможете грати з персонажами на нашій продукції, сканувати qr-коди, а також " +
+            "самостійно читати малюкові історії наших героїв.");
+        textInfo.Add("Rus", "КАЙКА - это волшебное детское постельное белье и одеяла. " +
+            "Наша продукция рассказывает детям сказки. С помощью приложения \"Кайка\" " +
+            "вы сможете играть с персонажами на нашей продукции, сканировать qr-коды, а " +
+            "также самостоятельно читать малышу истории наших героев.");
+        textInfo.Add("Eng", "KAJKA is a magical baby bedding and blankets. Our products " +
+            "tell fairy tales to children. With the \"KAIKA\" application, you can play with " +
+            "the characters on our products, scan the QR code on the products and also " +
+            "independently read the stories of our heroes to the kid.");
+
+
 
     }
 
